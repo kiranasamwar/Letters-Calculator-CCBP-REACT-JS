@@ -1,0 +1,47 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-bg-container {
+  order: 0;
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  padding: 30px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.image-logo {
+  height: 550px;
+  width: 650px;
+}
+.label-heading {
+  font-family: 'roboto';
+  color: #ffffff;
+}
+.input-box {
+  margin-top: 10px;
+  height: 30px;
+  background-color: transparent;
+  border-color: 2px solid #ffffff;
+  color: #ffffff;
+  outline: none;
+}
+.no-of-letters {
+  background-color: #ffffff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #1d976c;
+}
